@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #00172E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+.input {
+    width: 450px;
+    height: 50px;
+    margin: 5px;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.boton-agregar {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    color: #fff;
+}
+
+.boton-agregar:hover {
+    opacity: 0.9;
+}
+
+.item-input {
+    width: 350px;
+    height: 50px;
+    padding: 0 20px;
+    border:  1px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+}
+
+.item {
+    margin: 10px;
+}
+
+.boton-remover {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 6, 46);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boton-editar {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    border: none;
+    background-color: transparent;
+    color: #62d0ff;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    cursor: pointer;
+}
